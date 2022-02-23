@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Picker Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="flex bg-brand-yellow text-white flex-column align-center">
+      <p class="my-6px bold text-black">THE GREAT</p>
+      <p id="rgbspan" class="font-2rem text-black bold"></p>
+      <p class="my-6px bold text-black">COLOR GAME</p>
+    </div>
+    <div class="bg-white">
+      <div class="flex justify-evenly width-35em mx-auto">
+        <button id="playAgain" class="text-red-dark no-underline p-0.25em">NEW COLORS</button>
+        <span class="status pt-0.1em"></span>
+        <div class="flex">
+          <button id="easyBtn" class="text-red-dark no-underline p-0.25em">EASY</button>
+          <button id="hardBtn" class="text-red-dark no-underline p-0.25em">HARD</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Section -->
+    <div class="flex mx-auto justify-evenly wrap width-30em height-20em mt-50px">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

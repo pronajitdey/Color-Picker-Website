@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2a2a2a;
+    min-width: 30em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    font-weight: bold;
+    background: none;
+    border: none;
+    margin: 0.15em 0.25em;
+}
+
+.bg-brand-yellow {
+    background-color: #ffd738;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-red-dark {
+    color: rgb(185, 3, 3)
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.my-6px {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.p-0\.25em {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+}
+
+.pt-0\.1em {
+    padding-top: 0.1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-2rem {
+    font-size: 2rem;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.card {
+    width: 8em;
+    height: 8em;
+    border-radius: 1em;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.width-30em {
+    width: 30em;
+}
+
+.width-35em {
+    max-width: 35em;
+}
+
+.height-20em {
+    height: 20em;
+}
+
+.mx-auto {
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.mt-50px {
+    margin-top: 50px;
+}
+
+.status {
+    color:rgb(185, 3, 3);
+    font-weight: bold;
+}
