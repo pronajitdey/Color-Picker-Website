@@ -87,6 +87,9 @@ button {
     width: 8em;
     height: 8em;
     border-radius: 1em;
+    transition: background 0.4s;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
 }
 
 .wrap {
