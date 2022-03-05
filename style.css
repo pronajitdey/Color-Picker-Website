@@ -4,7 +4,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #2a2a2a;
-    min-width: 30em;
 }
 
 p {
@@ -97,7 +96,7 @@ button {
 }
 
 .width-30em {
-    width: 30em;
+    max-width: 30em;
 }
 
 .width-35em {
@@ -120,4 +119,44 @@ button {
 .status {
     color:rgb(185, 3, 3);
     font-weight: bold;
+}
+
+/* For small screen size */
+@media (max-width: 383px) {
+    .sm\:height-16em {
+        height: 16em;
+    }
+
+    .sm\:card {
+        width: 6em;
+        height: 6em;
+        border-radius: 1em;
+        transition: background 0.4s;
+        -webkit-transition: background 0.4s;
+        -moz-transition: background 0.4s; 
+    }
+
+    .sm\:font-1\.5em {
+        font-size: 1.5em;
+    }
+
+    .sm\:font-2\.5em {
+        font-size: 2.5em;
+    }
+
+    .sm\:my-15px {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .sm\:p-1em {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 0.25em;
+        padding-left: 0.25em;
+    }
+
+    .sm\:pt-0\.7em {
+        padding-top: 0.7em;
+    }
 }
